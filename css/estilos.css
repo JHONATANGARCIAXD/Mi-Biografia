@@ -1,0 +1,361 @@
+/*CLASES*/
+/*ESTILO BASE*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav
+{
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(17, 17, 17);
+    height: 50px;
+    text-align: center;
+    
+}
+
+.main-nav__item
+{
+    display: inline-block;
+    margin-top: 17px;
+    margin-right: 10px;
+
+}
+
+.main-nav__item:hover{
+    transform: scale(1.11);
+    transition:0.2s;
+
+}
+
+.main-nav__item a
+{
+    color: rgba(238, 238, 238, 0.781);
+    padding: 4px; /*MARGEN INTERNO*/
+    border-radius: 20px; /*REDONDEO*/
+    text-decoration: none;;
+}
+
+/*PSEUDOSCLASES*/
+.main-nav__item a:hover{
+    background-color:rgb(255, 255, 255);
+    transition: 0.9s;
+    color: rgb(0, 17, 255);
+
+}
+
+.main-nav__item a:active
+{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+
+/*PSEUDOELEMNTO*/
+
+body
+{
+    background-color:#00337C;      
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Gloock', serif;
+
+}
+
+/*ESTILO MI HORARIO*/
+table{
+    align-items: center;
+}
+
+
+/* ESTILO DE LA PAGINA NACIMIENTO*/
+
+.nacimiento{
+    background-color: rgba(73, 73, 73, 0.027);
+    width: 500x;
+    height: 320px;
+    margin-left:300px ;
+    margin-right: 312px;
+    margin-top: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: 10px 10px 10px 2px rgb(37, 37, 80);
+}
+
+
+.img{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 20px;
+    border-radius: 100% ;
+    transition: 0.5s;
+    object-position: cover;
+    border: 2px solid grey;
+
+}
+
+.img:hover{
+    border-radius: 0%;
+    transform:scale(1.1) ;
+    box-shadow: 3px 3px 3px rgba(243, 148, 148, 0.671);
+    
+}
+
+
+.p1{
+    margin-top:20px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration:dotted;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: default;
+    enable-background: 20px;
+    
+
+}
+
+/*ESTILO PAGINA FAMILIA*/
+
+
+/*HERMANOS*/
+
+.Titulo{
+    margin-top: 50px;
+    color: #03C988;
+    cursor: default;
+}
+
+
+
+.Hermanos{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 15px 14px 16px rgb(0, 0, 0);
+    border-radius: 2%;
+    float: right;
+    object-position: cover;
+}
+
+.Titulo-hermanos{
+    color:mediumpurple;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: default;
+
+}
+
+
+.Titulo-hermanos:hover{
+    transition: 1s;
+    transform: scale(1.4);
+}
+
+.texto{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 490px;
+    margin:25px; 
+    align-content: center;
+    border-radius: 3px;
+    cursor: default;
+
+}
+
+.text-herno{
+    
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(48, 48, 207);
+    border-radius: 5px;
+    font-size: 11px;
+    
+
+}
+.text-herno:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.text2-herna{
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(163, 32, 32);
+    border-radius: 5px;
+    font-size: 11px;
+    
+}
+.text2-herna:hover{
+    
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.img-padres{
+    width: 260px;
+    height: 280px;
+    float: right;
+    margin-right: 60px;
+    box-shadow: 10px 10px 10px grey;
+    object-position: cover;
+    image-rendering: auto;
+}
+
+.img-padres:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 0px  white;
+}
+
+/*PADRES*/
+
+.Padres{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    width: 900px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 15px 14px 16px rgb(0, 0, 0);
+    border-radius: 2%;
+    float: right;
+}
+
+
+.Titulo-padres{
+    color:mediumpurple;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: default;
+
+}
+
+
+.Titulo-padres:hover{
+    transition: 1s;
+    transform: scale(1.4);
+}
+
+.texto{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 490px;
+    margin:25px; 
+    align-content: center;
+    border-radius: 3px;
+    cursor: default;
+
+}
+
+.text-papá{
+    
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(48, 48, 207);
+    border-radius: 5px;
+    font-size: 11px;
+    
+
+}
+.text-papá:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.text2-mamá{
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(163, 32, 32);
+    border-radius: 5px;
+    font-size: 11px;
+    
+}
+.text2-mamá:hover{
+    
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.img-hernos{
+    width: 340px;
+    height: 250px;
+    float: right;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px grey;
+    object-position: cover;
+    image-rendering: auto;
+}
+
+.img-hernos:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 0px  white;
+}
+
+/*ESTILO HORARIO*/
+
+
+.Titulo-Horario{
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    
+}
+.horario{
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 530px;
+    margin-left: auto;  
+    margin-right: auto;
+    box-shadow: 10px 10px 10px red;
+    object-position: cover;
+    text-align: center;
+}
+
+.titulo-Horario{
+    padding: 1px;
+    
+}
+
+.Tabla-horario{
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.viernes{
+    padding: 8px;
+}
+.Hora{
+    padding: 3px;
+}

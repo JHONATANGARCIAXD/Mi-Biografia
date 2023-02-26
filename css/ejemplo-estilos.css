@@ -1,0 +1,64 @@
+/*CLASES*/
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.main-nav__item
+{
+    display: inline-block ;
+
+}
+
+.main-nav__item a
+{
+    color: rgb(0, 0, 0);
+    padding: 5px; /*MARGEN INTERNO*/
+    border-radius: 20px; /*REDONDEO*/
+    text-decoration: none;
+}
+
+/*PSEUDOSCLASES*/
+.main-nav__item a:hover
+{
+
+    color: rgb(37, 103, 224);
+}
+
+.main-nav__item a:active
+{
+    color: brown;
+}
+
+/*PSEUDOELEMNTO*/
+
+.main-nav__item a::after
+{
+    content: "|" ;
+
+}
+
+body
+{
+    background: rgb(255, 255, 255);
+    
+}
+
+img
+{
+    height: 20px;
+    width: 20px;
+    border: 20px;
+}
