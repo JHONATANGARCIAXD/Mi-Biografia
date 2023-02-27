@@ -15,6 +15,7 @@
     background-color: rgb(17, 17, 17);
     height: 50px;
     text-align: center;
+    padding: 2px;
     
 }
 
@@ -23,28 +24,32 @@
     display: inline-block;
     margin-top: 17px;
     margin-right: 10px;
+    margin-left: 20px;
+    object-position: cover;
 
 }
 
 .main-nav__item:hover{
     transform: scale(1.11);
-    transition:0.2s;
+    transition:0.7s;
 
 }
 
 .main-nav__item a
 {
     color: rgba(238, 238, 238, 0.781);
-    padding: 4px; /*MARGEN INTERNO*/
-    border-radius: 20px; /*REDONDEO*/
+    padding: 5px; /*MARGEN INTERNO*/
+    border-radius: 100px; /*REDONDEO*/
     text-decoration: none;;
+    object-position: cover;
 }
 
 /*PSEUDOSCLASES*/
 .main-nav__item a:hover{
-    background-color:rgb(255, 255, 255);
-    transition: 0.9s;
+    background-color:rgba(255, 255, 255, 0.89);
     color: rgb(0, 17, 255);
+    font-weight: bolder;
+    box-shadow: 4px 4px 4px gray;
 
 }
 
@@ -69,10 +74,6 @@ h1{
 
 }
 
-/*ESTILO MI HORARIO*/
-table{
-    align-items: center;
-}
 
 
 /* ESTILO DE LA PAGINA NACIMIENTO*/
