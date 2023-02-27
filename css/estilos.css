@@ -7,6 +7,7 @@
     margin: 0;
 }
 
+
 .main-nav
 {
     margin-top: 0;
@@ -63,7 +64,7 @@
 
 body
 {
-    background-color:#00337C;      
+    background-color:#74747450;
 }
 
 h1{
@@ -128,9 +129,6 @@ h1{
 
 /*ESTILO PAGINA FAMILIA*/
 
-
-/*HERMANOS*/
-
 .Titulo{
     margin-top: 50px;
     color: #03C988;
@@ -138,79 +136,7 @@ h1{
 }
 
 
-
-.Hermanos{
-    background-color: rgb(255, 255, 255);
-    width: 900px;
-    height: 400px;
-    margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    box-shadow: 15px 14px 16px rgb(0, 0, 0);
-    border-radius: 2%;
-    float: right;
-    object-position: cover;
-}
-
-.Titulo-hermanos{
-    color:mediumpurple;
-    margin: 30px;
-    padding: 10px;
-    text-align: center;
-    font-size: 25px;
-    cursor: default;
-
-}
-
-
-.Titulo-hermanos:hover{
-    transition: 1s;
-    transform: scale(1.4);
-}
-
-.texto{
-    background-color: rgb(255, 255, 255);
-    height: 260px;
-    width: 490px;
-    margin:25px; 
-    align-content: center;
-    border-radius: 3px;
-    cursor: default;
-
-}
-
-.text-herno{
-    
-    padding: 31px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bolder;
-    background-color: rgb(48, 48, 207);
-    border-radius: 5px;
-    font-size: 11px;
-    
-
-}
-.text-herno:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.text2-herna{
-    padding: 31px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bolder;
-    background-color: rgb(163, 32, 32);
-    border-radius: 5px;
-    font-size: 11px;
-    
-}
-.text2-herna:hover{
-    
-    transform:scale(1.1);
-    transition: 1s;
-}
+/*PADRES*/
 
 .img-padres{
     width: 260px;
@@ -228,11 +154,9 @@ h1{
     box-shadow: 0px 0px 0px  white;
 }
 
-/*PADRES*/
-
 .Padres{
     background-color: rgb(255, 255, 255);
-    margin-top: 100px;
+    margin-top: 20px;
     width: 900px;
     height: 400px;
     margin-left: 200px;
@@ -319,6 +243,78 @@ h1{
     box-shadow: 0px 0px 0px  white;
 }
 
+/*HERMANOS*/
+
+.Hermanos{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 400px;
+    margin-top:150px;
+    box-shadow: 15px 14px 16px rgb(0, 0, 0);
+    border-radius: 2%;
+    object-position: cover;
+}
+
+.Titulo-hermanos{
+    color:mediumpurple;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: default;
+
+}
+
+
+.Titulo-hermanos:hover{
+    transition: 1s;
+    transform: scale(1.4);
+}
+
+.texto{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 490px;
+    margin:25px; 
+    align-content: center;
+    border-radius: 3px;
+    cursor: default;
+
+}
+
+.text-herno{
+    
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(48, 48, 207);
+    border-radius: 5px;
+    font-size: 11px;
+    
+
+}
+.text-herno:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.text2-herna{
+    padding: 31px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(163, 32, 32);
+    border-radius: 5px;
+    font-size: 11px;
+    
+}
+.text2-herna:hover{
+    
+    transform:scale(1.1);
+    transition: 1s;
+}
+
 /*ESTILO HORARIO*/
 
 
@@ -326,7 +322,7 @@ h1{
     margin-top: 30px;
     text-align: center;
     font-style: italic;
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 .horario{
@@ -359,4 +355,152 @@ h1{
 }
 .Hora{
     padding: 3px;
+}
+
+/*EDUCACION*/
+
+
+.container-P{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+}
+
+/*nuevo milenio*/
+
+.container-milenio{
+    margin-left:3%;
+    margin-top:auto;
+    width:400px;
+    height: 400px;
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.texto-milenio{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    text-align:center;
+    font-weight:bolder;
+    box-shadow: 6px 6px 6px black;
+    
+}
+
+.img-cole-milenio{
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    padding: 2px;
+    object-position: cover;
+    background-color: black;            
+}
+
+
+/*COLEGIO LUIS CAMACHO*/
+.container-camacho{
+    margin-left:25%;
+    margin-top:auto;
+    width:400px;
+    height: 400px;
+    transform: scale(1.1);
+}
+
+.texto-camacho{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    text-align:center;
+    font-weight:bolder;
+    box-shadow: 6px 6px 6px black;
+    
+}
+
+.img-cole-camacho{
+    margin-top:45px;
+    width: 300px;
+    height: 250px;
+    padding: 2px;
+    object-position: cover;
+    background-color: black; 
+}
+
+
+/*Sede C y Sede A*/
+
+/*Sede C*/
+
+.container-P1{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.container-sede-C{
+    margin-left:3%;
+    width:400px;
+    height: 400px;
+    transform: scale(1.1);
+}
+
+.texto-sede-C{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    text-align:center;
+    font-weight:bolder;
+    box-shadow: 6px 6px 6px black;
+    
+}
+
+/*Sede A*/
+
+.container-Sede-A{
+    margin-left:250px;
+    margin-right: 20px;
+    margin-top:auto;
+    width:400px;
+    height: 400px;
+    transform: scale(1.1);
+}
+
+.texto-Sede-A{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    text-align:center;
+    font-weight:bolder;
+    box-shadow: 6px 6px 6px black;
+    
+}
+
+.img-Sede-A{
+    margin-top:45px;
+    width: 300px;
+    height: 250px;
+    padding: 2px;
+    object-position: cover;
+    background-color: black; 
 }
