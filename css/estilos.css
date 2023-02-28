@@ -129,7 +129,7 @@ h1{
 
 /*ESTILO PAGINA FAMILIA*/
 
-.Titulo{
+.container-Titulo{
     margin-top: 50px;
     color: #03C988;
     cursor: default;
@@ -138,7 +138,7 @@ h1{
 
 /*PADRES*/
 
-.img-padres{
+.container-img-padres{
     width: 260px;
     height: 280px;
     float: right;
@@ -148,13 +148,13 @@ h1{
     image-rendering: auto;
 }
 
-.img-padres:hover{
+.container-img-padres:hover{
     transform: scale(1.1);
     transition: 1s;
     box-shadow: 0px 0px 0px  white;
 }
 
-.Padres{
+.container-Padres{
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
     width: 900px;
@@ -167,7 +167,7 @@ h1{
 }
 
 
-.Titulo-padres{
+.container-Titulo-padres{
     color:mediumpurple;
     margin: 30px;
     padding: 10px;
@@ -178,12 +178,12 @@ h1{
 }
 
 
-.Titulo-padres:hover{
+.container-Titulo-padres:hover{
     transition: 1s;
     transform: scale(1.4);
 }
 
-.texto{
+.container-texto{
     background-color: rgb(255, 255, 255);
     height: 260px;
     width: 490px;
@@ -194,34 +194,19 @@ h1{
 
 }
 
-.text-papá{
-    
-    padding: 31px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bolder;
-    background-color: rgb(48, 48, 207);
-    border-radius: 5px;
-    font-size: 11px;
-    
 
-}
-.text-papá:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.text2-mamá{
+.container-text-pa-ma{
     padding: 31px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bolder;
     background-color: rgb(163, 32, 32);
     border-radius: 5px;
-    font-size: 11px;
-    
+    font-size: 19px;
+
+
 }
-.text2-mamá:hover{
+.container-text2-mamá:hover{
     
     transform:scale(1.1);
     transition: 1s;
@@ -282,7 +267,7 @@ h1{
 
 }
 
-.text-herno{
+.text-hernos{
     
     padding: 31px;
     color: rgb(255, 255, 255);
@@ -290,7 +275,7 @@ h1{
     font-weight: bolder;
     background-color: rgb(48, 48, 207);
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 19px;
     
 
 }
@@ -299,21 +284,7 @@ h1{
     transition: 1s;
 }
 
-.text2-herna{
-    padding: 31px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bolder;
-    background-color: rgb(163, 32, 32);
-    border-radius: 5px;
-    font-size: 11px;
-    
-}
-.text2-herna:hover{
-    
-    transform:scale(1.1);
-    transition: 1s;
-}
+
 
 /*ESTILO HORARIO*/
 
@@ -325,15 +296,11 @@ h1{
     color: rgb(0, 0, 0);
     
 }
-.horario{
-    background-color: rgb(0, 0, 0);
-    width: 1000px;
-    height: 530px;
-    margin-left: auto;  
-    margin-right: auto;
-    box-shadow: 10px 10px 10px red;
-    object-position: cover;
-    text-align: center;
+
+.Horario{
+    width: auto;
+    height: 710px;
+
 }
 
 .titulo-Horario{
@@ -376,7 +343,6 @@ h1{
     width:400px;
     height: 400px;
     transform: scale(1.1);
-    background-color: black;
 }
 
 .texto-milenio{
@@ -424,6 +390,7 @@ h1{
     font-weight:bolder;
     box-shadow: 6px 6px 6px black;
     
+    
 }
 
 .img-cole-camacho{
@@ -446,12 +413,11 @@ h1{
     margin-left: 100px;
     margin-right: 100px;
     width: auto;
-    height: auto;
-    background-color: black;
+    height: 550px;
 }
 
 .container-sede-C{
-    margin-left:3%;
+    margin-left: 3%;
     width:400px;
     height: 400px;
     transform: scale(1.1);
@@ -474,12 +440,11 @@ h1{
 /*Sede A*/
 
 .container-Sede-A{
-    margin-left:250px;
-    margin-right: 20px;
-    margin-top:auto;
+    margin-left:25%;
     width:400px;
     height: 400px;
     transform: scale(1.1);
+
 }
 
 .texto-Sede-A{
@@ -504,3 +469,4 @@ h1{
     object-position: cover;
     background-color: black; 
 }
+
